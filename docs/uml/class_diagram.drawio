@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-11-01T19:00:00.000Z" agent="Mozilla/5.0" version="24.7.17" type="device">
+  <diagram id="class_diagram" name="Class Diagram">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1220" pageHeight="880" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="SAHTE BANKNOT TESPİTİ — KAVRAMSAL SINIF DİYAGRAMI" style="text;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=29;fontStyle=1;fontColor=#203C5A;" vertex="1" parent="1">
+          <mxGeometry x="50" y="23" width="1120" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="dataset" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#4C6680;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="459" y="150" width="300" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="dataset_head" value="VeriSeti" style="rounded=0;arcSize=12;whiteSpace=wrap;html=1;fillColor=#CFE6FA;strokeColor=#4C6680;strokeWidth=2;fontSize=23;fontFamily=DejaVu Sans;fontColor=#203C5A;align=center;verticalAlign=middle;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="459" y="150" width="300" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="dataset_row0" value="ad: String" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontColor=#21334D;fontSize=22;fillColor=#FFF9C4;strokeColor=#A5B6BF;strokeWidth=1;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry x="459" y="206" width="300" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="dataset_row1" value="ornekSayisi: Integer" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontColor=#21334D;fontSize=22;fillColor=#FFF9C4;strokeColor=#A5B6BF;strokeWidth=1;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry x="459" y="255" width="300" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="banknote" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#4C6680;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="445" width="390" height="301" as="geometry" />
+        </mxCell>
+        <mxCell id="banknote_head" value="BanknotKaydi" style="rounded=0;arcSize=12;whiteSpace=wrap;html=1;fillColor=#CFE6FA;strokeColor=#4C6680;strokeWidth=2;fontSize=23;fontFamily=DejaVu Sans;fontColor=#203C5A;align=center;verticalAlign=middle;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="445" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="banknote_row0" value="variance: Float" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontColor=#21334D;fontSize=22;fillColor=#FFF9C4;strokeColor=#A5B6BF;strokeWidth=1;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="501" width="390" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="banknote_row1" value="skewness: Float" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontColor=#21334D;fontSize=22;fillColor=#FFF9C4;strokeColor=#A5B6BF;strokeWidth=1;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="550" width="390" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="banknote_row2" value="curtosis: Float" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontColor=#21334D;fontSize=22;fillColor=#FFF9C4;strokeColor=#A5B6BF;strokeWidth=1;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="599" width="390" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="banknote_row3" value="entropy: Float" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontColor=#21334D;fontSize=22;fillColor=#FFF9C4;strokeColor=#A5B6BF;strokeWidth=1;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="648" width="390" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="banknote_row4" value="sinif_etiketi: Integer" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontColor=#21334D;fontSize=22;fillColor=#FFF9C4;strokeColor=#A5B6BF;strokeWidth=1;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="697" width="390" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="result" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#4C6680;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="752" y="445" width="390" height="301" as="geometry" />
+        </mxCell>
+        <mxCell id="result_head" value="ModelTestSonucu" style="rounded=0;arcSize=12;whiteSpace=wrap;html=1;fillColor=#CFE6FA;strokeColor=#4C6680;strokeWidth=2;fontSize=23;fontFamily=DejaVu Sans;fontColor=#203C5A;align=center;verticalAlign=middle;spacing=10;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="752" y="445" width="390" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="result_row0" value="yontemAdi: String" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontColor=#21334D;fontSize=22;fillColor=#FFF9C4;strokeColor=#A5B6BF;strokeWidth=1;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry x="752" y="501" width="390" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="result_row1" value="dogrulukOrani: Float" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontColor=#21334D;fontSize=22;fillColor=#FFF9C4;strokeColor=#A5B6BF;strokeWidth=1;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry x="752" y="550" width="390" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="result_row2" value="kesinlik: Float" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontColor=#21334D;fontSize=22;fillColor=#FFF9C4;strokeColor=#A5B6BF;strokeWidth=1;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry x="752" y="599" width="390" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="result_row3" value="duyarlilik: Float" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontColor=#21334D;fontSize=22;fillColor=#FFF9C4;strokeColor=#A5B6BF;strokeWidth=1;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry x="752" y="648" width="390" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="result_row4" value="f1Skoru: Float" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=DejaVu Sans;fontColor=#21334D;fontSize=22;fillColor=#FFF9C4;strokeColor=#A5B6BF;strokeWidth=1;spacingLeft=14;" vertex="1" parent="1">
+          <mxGeometry x="752" y="697" width="390" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="dataset_to_banknote" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#557DA5;strokeWidth=3;endArrow=none;endFill=1;fontSize=20;fontFamily=DejaVu Sans;fontColor=#21334D;fontStyle=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="534" y="304" as="sourcePoint" />
+            <mxPoint x="275" y="445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="534" y="370" />
+              <mxPoint x="275" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dataset_to_result" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#557DA5;strokeWidth=3;endArrow=none;endFill=1;fontSize=20;fontFamily=DejaVu Sans;fontColor=#21334D;fontStyle=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="684" y="304" as="sourcePoint" />
+            <mxPoint x="947" y="445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="684" y="370" />
+              <mxPoint x="947" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="multi_a_top" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#203C5A;fontFamily=DejaVu Sans;" vertex="1" parent="1">
+          <mxGeometry x="480" y="312" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="multi_a_bot" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#203C5A;fontFamily=DejaVu Sans;" vertex="1" parent="1">
+          <mxGeometry x="215" y="408" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="multi_b_top" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#203C5A;fontFamily=DejaVu Sans;" vertex="1" parent="1">
+          <mxGeometry x="685" y="312" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="multi_b_bot" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#203C5A;fontFamily=DejaVu Sans;" vertex="1" parent="1">
+          <mxGeometry x="902" y="408" width="95" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

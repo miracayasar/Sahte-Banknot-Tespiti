@@ -205,7 +205,7 @@ Proje, üç kişilik ekip tarafından yürütülmektedir. Görevler; model geli�
 | Ekip Üyesi | Görev ve Sorumluluklar |
 |---|---|
 | **Miraç Yaşar** | GitHub deposunun genel yönetimi, dosya ve sürüm organizasyonu, isteğe bağlı (Should Have) uygulamanın arayüz ve görüntü işleme sisteminin geliştirilmesi ve  sunumların hazırlanması ve gerçekleştirilmesi. |
-| **İbrahim Alo** | Lojistik Regresyon ve Karar Ağacı modellerinin eğitilmesi, test edilmesi ve sunumların hazırlanması ve gerçekleştirilmesi. |
+| **İbrahim Alo** | Veri analizi, Lojistik Regresyon ve Karar Ağacı modellerinin geliştirilmesi ve test edilmesi, sunumların hazırlanması ve gerçekleştirilmesi. |
 | **Buğra Ahat** | Projenin tüm raporlama ve dokümantasyon süreçlerinin yürütülmesi, teknik çalışmaların belgelenmesi, haftalık raporların hazırlanması ve proje sonuçlarının raporlanması. |
 
 

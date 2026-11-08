@@ -173,7 +173,7 @@ Proje kapsamında tamamlanan çalışmalar, ilgili dosyalar ve belgelerle birlik
 | Çalışma | Kapsam | Dosyalar |
 |---|---|---|
 | **5. Hafta — UML ve Tasarım** | Use Case, Activity ve Class diyagramlarının hazırlanması; sistemin yapısının ve işleyişinin modellenmesi. | [UML Diyagramları](docs/uml/) |
-| **6. Hafta — Veri Analizi** | UCI Banknote Authentication veri setinin Google Colab ortamında incelenmesi, temel istatistiklerin hesaplanması ve grafiklerle görselleştirilmesi. | [6. Hafta Ödevi](6.Hafta-Odevi/) |
+| **6. Hafta — Veri Analizi** | UCI Banknote Authentication veri setinin Google Colab ortamında incelenmesi, temel istatistiklerin hesaplanması ve grafiklerle görselleştirilmesi. | Google Colab (notebooks/Hafta6_Ogrenci_Proje_Veri_Analizi_Sablonu.ipynb) |
 
 
 

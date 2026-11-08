@@ -140,15 +140,14 @@ Test verilerinin model eğitimine bilgi sızdırmamasına dikkat edilecektir.
 
 ## 📊 6. Haftalık Çalışmalar ve İlerleme
 
-
-## 📂 Gerçekleştirilen Çalışmalar
+### 📂 Gerçekleştirilen Çalışmalar
 
 Proje kapsamında tamamlanan çalışmalar, ilgili dosyalar ve belgelerle birlikte GitHub deposunda düzenli olarak saklanmaktadır.
 
 | Çalışma | Kapsam | Dosyalar |
 |---|---|---|
 | **5. Hafta — UML ve Tasarım** | Use Case, Activity ve Class diyagramlarının hazırlanması; sistemin yapısının ve işleyişinin modellenmesi. | [UML Diyagramları](docs/uml/) |
-| **6. Hafta — Veri Analizi** | UCI Banknote Authentication veri setinin Google Colab ortamında incelenmesi, temel istatistiklerin hesaplanması ve grafiklerle görselleştirilmesi. | Google Colab (notebooks/Hafta6_Ogrenci_Proje_Veri_Analizi_Sablonu.ipynb) |
+| **6. Hafta — Veri Analizi** | UCI Banknote Authentication veri setinin Google Colab ortamında incelenmesi, temel istatistiklerin hesaplanması ve grafiklerle görselleştirilmesi. | [Google Colab Çalışması](notebooks/Hafta6_Ogrenci_Proje_Veri_Analizi_Sablonu.ipynb) · [PDF Raporu](docs/haftalik_raporlar/Hafta6_Veri_Analizi_Raporu.pdf) |
 
 
 

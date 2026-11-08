@@ -99,38 +99,13 @@ Should Have kapsamındaki özellikler şu anda **planlama ve araştırma aşamas
 
 ## 📂 4. Kullanılan Veri Seti
 
-| Özellik | Bilgi |
-|---|---|
-| **Adı** | Banknote Authentication |
-| **Kaynak** | UCI Machine Learning Repository |
-| **Hazırlayan** | Volker Lohweg (2012) |
-| **Kayıt sayısı** | 1.372 |
-| **Sayısal özellik sayısı** | 4 |
-| **Hedef değişken** | 1 |
-| **Toplam sütun sayısı** | 5 |
-| **Eksik değer** | 0 |
-| **Lisans** | CC BY 4.0 |
+Projede **UCI Banknote Authentication** veri seti kullanılmaktadır. Veri seti, 1.372 banknot kaydına ait dört sayısal özellik ve bir sınıf etiketinden oluşmaktadır.
 
-**Resmî veri seti:** https://archive.ics.uci.edu/dataset/267/banknote
+Bu veriler, Lojistik Regresyon ve Karar Ağacı modellerinin eğitilmesi ve karşılaştırılması amacıyla kullanılacaktır.
 
-**DOI:** https://doi.org/10.24432/C55P57
+Veri seti ham banknot fotoğrafları içermediğinden, isteğe bağlı görüntü analizi çalışması ayrı bir veri setiyle değerlendirilecektir.
 
-### Veri Setindeki Değişkenler
-
-| Değişken | Açıklama | Tür |
-|---|---|---|
-| `variance` | Dalgacık dönüşümlü görüntünün varyansı | Continuous |
-| `skewness` | Dalgacık dönüşümlü görüntünün çarpıklığı | Continuous |
-| `curtosis` | Dalgacık dönüşümlü görüntünün basıklığı | Continuous |
-| `entropy` | Görüntünün entropisi | Continuous |
-| `class` | Gerçek/sahte sınıf etiketi | Integer |
-
-Veri seti **ham banknot fotoğraflarını değil**, görüntü işleme sonucunda önceden elde edilmiş sayısal özellikleri içermektedir.
-
-Bu nedenle veri seti temel sınıflandırma çalışmasında kullanılacak, isteğe bağlı görüntü analizi çalışması ise ayrı değerlendirilecektir.
-
-**Depodaki veri dosyası:** [data_banknote_authentication.txt](data/data_banknote_authentication.txt)
-
+**Veri setinin dosyası, değişkenleri, kaynağı ve lisans bilgileri:** [Veri Seti Dokümantasyonu](data/README.md)
 ---
 
 ## 🧠 5. Seçilen Makine Öğrenmesi Yöntemleri

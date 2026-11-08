@@ -187,7 +187,7 @@ Proje kapsamında tamamlanan çalışmalar, ilgili dosyalar ve belgelerle birlik
 | **Python** | Veri analizi ve model geliştirme |
 | **Google Colab** | Bulut tabanlı Python çalışma ortamı |
 | **Matplotlib** | Grafik ve görselleştirme |
-| **Scikit-learn ** | Makine öğrenmesi modellerinin eğitimi ve değerlendirilmesi |
+| **Scikit-learn** | Makine öğrenmesi modellerinin eğitimi ve değerlendirilmesi |
 | **Git ve GitHub** | Sürüm kontrolü ve ekip çalışması |
 | **draw.io / diagrams.net** | UML diyagramlarının hazırlanması |
 

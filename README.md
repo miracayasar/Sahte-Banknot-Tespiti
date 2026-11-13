@@ -87,6 +87,13 @@ Bu çalışmalar zorunlu değildir; henüz tamamlanmış özellikler olarak sunu
 - Web veya mobil uygulama geliştirmeyi zorunlu tutmak.
 - Eğitim amaçlı sınıflandırma sonuçlarını gerçek hayatta kesin banknot doğrulaması olarak sunmak.
 
+### 🔄 Proje Geliştirme ve Yönetim Yöntemi
+
+Projenin geliştirme sürecinde **Çevik (Agile) yaklaşım** benimsenmiş, görevlerin planlanması ve takibi için **Kanban yöntemi** tercih edilmiştir.
+
+Bu seçimin temel gerekçesi, makine öğrenmesi çalışmalarının veri analizi, ön işleme, model geliştirme, performans değerlendirme ve raporlama gibi birbirine bağlı aşamalardan oluşmasıdır. Çevik yaklaşım, bu aşamaların yönetilebilir görevlere ayrılmasına ve elde edilen bulgular doğrultusunda geliştirme planının gerektiğinde güncellenmesine olanak tanımaktadır.
+
+Proje görevleri **GitHub Issues** üzerinden tanımlanmakta; sorumlular ve kabul kriterleri belirlenerek **GitHub Projects** panosunda takip edilmektedir. Kanban yöntemi sayesinde iş süreçlerinin görünür kılınması, ekip içi koordinasyonun sağlanması ve proje ilerleyişinin düzenli biçimde izlenmesi amaçlanmaktadır.
 ---
 
 ## 📂 4. Kullanılan Veri Seti

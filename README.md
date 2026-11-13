@@ -105,7 +105,7 @@ Bu veriler, Lojistik Regresyon ve Karar Ağacı modellerinin eğitilmesi ve kar�
 
 Veri seti ham banknot fotoğrafları içermediğinden, isteğe bağlı görüntü analizi çalışması ayrı bir veri setiyle değerlendirilecektir.
 
-**Veri setinin dosyası, değişkenleri, kaynağı ve lisans bilgileri:** [Veri Seti Dokümantasyonu](data/README.md)
+**Veri setinin özellikleri, değişkenleri, kaynağı ve lisans bilgileri:** [Veri Seti Dokümantasyonu](data/README.md)
 ---
 
 ## 🧠 5. Seçilen Makine Öğrenmesi Yöntemleri

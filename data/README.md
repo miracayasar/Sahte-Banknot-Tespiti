@@ -1,6 +1,6 @@
 # 📂 Veri Seti — Banknote Authentication
 
-Bu klasör, Sahte Banknot Tespiti projesinde kullanılan **UCI Banknote Authentication** veri setini içermektedir.
+
 
 ## 📄 Veri Seti Bilgileri
 

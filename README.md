@@ -71,13 +71,20 @@ Projenin tamamlanması için gerekli temel çalışmalar:
 **Bu bölüm dönem projesinin ana hedefidir.**
 
 
+
 ### ⭐ Should Have — İsteğe Bağlı Geliştirmeler
 
-Temel proje tamamlandıktan sonra, zaman ve teknik olanaklar elverirse aşağıdaki ek çalışmalar gerçekleştirilecektir:
+Projenin temel gereksinimleri tamamlandıktan sonra, zaman ve teknik olanaklar doğrultusunda aşağıdaki ek geliştirmelerin gerçekleştirilmesi planlanmaktadır:
 
-- Model performans sonuçlarını ve karşılaştırma grafiklerini daha anlaşılır biçimde sunmak.
-- **Streamlit ile kullanıcı arayüzü geliştirmek (#11):** Kullanıcının banknota ait dört sayısal özelliği (Variance, Skewness, Curtosis, Entropy) girebileceği, tahmin işlemini başlatabileceği ve modelin ürettiği sınıflandırma sonucunu görüntüleyebileceği basit bir arayüz oluşturmak.
-- **Alternatif komut satırı arayüzü (CLI):** Streamlit arayüzünün teknik nedenlerle veya zaman yetersizliği nedeniyle tamamlanamaması durumunda, aynı tahmin işlemini terminal üzerinden gerçekleştiren basit bir MVP hazırlamak.
+- **Performans Sonuçlarının Görselleştirilmesi:** Lojistik Regresyon ve Karar Ağacı modellerinin performans sonuçlarının, karşılaştırmalı grafikler ve tablolar aracılığıyla daha anlaşılır biçimde sunulması.
+
+- **Kullanıcı Arayüzü (UI) Geliştirilmesi:** Python ve Streamlit kullanılarak, kullanıcının banknotlara ait dört sayısal özelliği (Variance, Skewness, Curtosis ve Entropy) girebileceği, tahmin işlemini başlatabileceği ve eğitilmiş makine öğrenmesi modelinin sınıflandırma sonucunu görüntüleyebileceği basit bir uygulama geliştirilmesi. Arayüzün, en az bir eğitilmiş sınıflandırma modeliyle bütünleşik biçimde çalışması hedeflenmektedir.
+
+- **Alternatif Komut Satırı Arayüzü (CLI):** Streamlit tabanlı arayüzün teknik sınırlılıklar veya zaman yetersizliği nedeniyle tamamlanamaması durumunda, aynı temel işlevleri terminal üzerinden gerçekleştiren bir Minimum Uygulanabilir Ürün (MVP) geliştirilmesi. CLI, Streamlit arayüzünün alternatifi olup her iki arayüzün birlikte geliştirilmesi zorunlu değildir.
+
+**Kapsam Sınırı:** Planlanan arayüz, doğrudan banknot fotoğrafı üzerinden sahtecilik tespiti gerçekleştirmeyecektir. Uygulama, önceden çıkarılmış dört sayısal özellik üzerinden modelin tahmin yeteneğini göstermek amacıyla hazırlanmış eğitim ve demonstrasyon odaklı bir sistem olacaktır.
+
+
 
 ### 🚫 Mevcut Kapsamın Dışında
 

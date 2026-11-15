@@ -152,18 +152,20 @@ Proje kapsamında tamamlanan çalışmalar, ilgili dosyalar ve belgelerle birlik
 
 ---
 
-## 🛠️ 7. Kullanılan Teknolojiler ve Araçlar
 
-| Teknoloji / Araç | Kullanım Amacı |
+## 🛠️ 7. Kullanılan Uygulamalar ve Platformlar
+
+| Uygulama / Platform | Kullanım Amacı |
 |---|---|
-| **Python** | Veri analizi ve model geliştirme |
-| **Google Colab** | Bulut tabanlı Python çalışma ortamı |
-| **Matplotlib** | Grafik ve görselleştirme |
-| **Scikit-learn** | Makine öğrenmesi modellerinin eğitimi ve değerlendirilmesi |
-| **Git ve GitHub** | Sürüm kontrolü ve ekip çalışması |
-| **draw.io / diagrams.net** | UML diyagramlarının hazırlanması |
+| **Google Colab** | Veri analizi ve makine öğrenmesi kodlarının geliştirilmesi ve çalıştırılması |
+| **GitHub** | Proje dosyalarının yönetimi, sürüm takibi ve ekip içi görev koordinasyonu |
+| **GitHub Projects (Kanban)** | Görevlerin planlanması, sorumluların belirlenmesi ve proje ilerlemesinin takip edilmesi |
+| **draw.io / diagrams.net** | Use Case, Activity ve Class diyagramlarının hazırlanması |
 
-İsteğe bağlı arayüzün kullanılacak teknolojisi, geliştirme aşamasında belirlenecektir.
+
+
+
+
 
 ---
 

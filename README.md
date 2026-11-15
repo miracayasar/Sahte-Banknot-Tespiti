@@ -70,14 +70,14 @@ Projenin tamamlanması için gerekli temel çalışmalar:
 
 **Bu bölüm dönem projesinin ana hedefidir.**
 
+
 ### ⭐ Should Have — İsteğe Bağlı Geliştirmeler
 
-Temel proje tamamlandıktan sonra, zaman ve teknik olanaklar elverirse şu ek çalışmalar yapılabilir:
+Temel proje tamamlandıktan sonra, zaman ve teknik olanaklar elverirse aşağıdaki ek çalışmalar gerçekleştirilecektir:
 
 - Model performans sonuçlarını ve karşılaştırma grafiklerini daha anlaşılır biçimde sunmak.
-- Sonuçların gösterimi için kapsamı ve teknolojisi ekip tarafından ayrıca netleştirilecek basit bir demo/arayüz hazırlamak.
-
-Bu çalışmalar zorunlu değildir; henüz tamamlanmış özellikler olarak sunulmamaktadır.
+- **Streamlit ile kullanıcı arayüzü geliştirmek (#11):** Kullanıcının banknota ait dört sayısal özelliği (Variance, Skewness, Curtosis, Entropy) girebileceği, tahmin işlemini başlatabileceği ve modelin ürettiği sınıflandırma sonucunu görüntüleyebileceği basit bir arayüz oluşturmak.
+- **Alternatif komut satırı arayüzü (CLI):** Streamlit arayüzünün teknik nedenlerle veya zaman yetersizliği nedeniyle tamamlanamaması durumunda, aynı tahmin işlemini terminal üzerinden gerçekleştiren basit bir MVP hazırlamak.
 
 ### 🚫 Mevcut Kapsamın Dışında
 
@@ -160,17 +160,25 @@ Proje kapsamında tamamlanan çalışmalar, ilgili dosyalar ve belgelerle birlik
 
 ---
 
+
 ## 👥 8. Proje Ekibi ve Görev Dağılımı
 
-Proje, üç kişilik ekip tarafından yürütülmektedir. Görevler; model geliştirme, yazılım geliştirme, proje yönetimi ve dokümantasyon alanlarında paylaştırılmıştır.
+Proje, üç kişilik ekip tarafından yürütülmektedir. Görevler; veri hazırlama, model geliştirme, performans değerlendirme, arayüz geliştirme, proje yönetimi ve dokümantasyon alanlarında paylaştırılmıştır.
 
 ### 📋 Genel Görev Dağılımı
 
 | Ekip Üyesi | Görev ve Sorumluluklar |
 |---|---|
-| **Miraç Yaşar** | GitHub deposunun genel yönetimi, dosya ve sürüm organizasyonu, isteğe bağlı arayüz çalışmasının değerlendirilmesi ve sunumların hazırlanması ve gerçekleştirilmesi. |
-| **İbrahim Alo** | Veri analizi, Lojistik Regresyon ve Karar Ağacı modellerinin geliştirilmesi ve test edilmesi, sunumların hazırlanması ve gerçekleştirilmesi. |
-| **Buğra Ahat** | Projenin tüm raporlama ve dokümantasyon süreçlerinin yürütülmesi, teknik çalışmaların belgelenmesi, haftalık raporların hazırlanması ve proje sonuçlarının raporlanması. |
+| **Miraç Yaşar** | GitHub deposunun genel yönetimi, dosya ve sürüm organizasyonu, Karar Ağacı modelinin geliştirilmesi , Karar Ağacı performansının ölçülmesi , isteğe bağlı Streamlit kullanıcı arayüzünün geliştirilmesi  ve sunumların hazırlanması ve gerçekleştirilmesi. |
+| **İbrahim Alo** | Veri hazırlama ve ön işleme , Lojistik Regresyon modelinin geliştirilmesi , Lojistik Regresyon performansının ölçülmesi  ve sunumların hazırlanması ve gerçekleştirilmesi. |
+| **Buğra Ahat** | Projenin raporlama ve dokümantasyon süreçlerinin yürütülmesi, haftalık raporların hazırlanması, teknik çalışmaların belgelenmesi ve nihai teknik raporun hazırlanması . |
+
+### 🤝 Ortak Sorumluluklar
+
+- **UML Diyagramlarının Hazırlanması ve Güncellenmesi :** Use Case, Activity ve Class diyagramlarının üç ekip üyesinin ortak katkısıyla hazırlanması, sistemin işlevsel ve yapısal özelliklerinin modellenmesi ve proje kapsamındaki değişiklikler doğrultusunda gerekli güncellemelerin gerçekleştirilmesi. 
+- **Veri Setinin Temini ve Keşifsel Veri Analizi (EDA):** UCI Banknote Authentication veri setinin temin edilmesi, kaynağının ve lisans koşullarının doğrulanması; veri yapısının, sayısal özelliklerin, sınıf dağılımının ve veri kalitesinin istatistiksel yöntemlerle incelenmesi. Elde edilen bulguların grafiklerle görselleştirilmesi ve analiz sonuçlarının proje deposunda belgelenmesi
+
+
 
 ---
 

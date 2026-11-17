@@ -1,60 +1,81 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mxfile host="app.diagrams.net" modified="2026-11-01T19:00:00.000Z" agent="Mozilla/5.0" version="24.7.17" type="device">
-  <diagram id="use_case" name="Use Case">
-    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1315" math="0" shadow="0">
+<mxfile host="app.diagrams.net">
+  <diagram name="Use Case — Güncel Kapsam" id="updated-usecase">
+    <mxGraphModel page="1" pageWidth="1200" pageHeight="1040" grid="1" gridSize="10">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" value="SAHTE BANKNOT ANALİZİ SÜRECİ" style="text;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;fontFamily=DejaVu Sans;fontSize=30;fontStyle=1;fontColor=#CB3D30;" vertex="1" parent="1">
-          <mxGeometry x="50" y="23" width="1100" height="64" as="geometry" />
+        <mxCell id="system" value="Sahte Banknot Tespiti Sistemi" style="rounded=0;fillColor=none;strokeColor=#344563;fontSize=20;fontStyle=1;verticalAlign=top;spacingTop=15;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="280" y="25" width="890" height="980" />
         </mxCell>
-        <mxCell id="system" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#245ED3;strokeColor=#1F3769;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="355" y="115" width="805" height="1140" as="geometry" />
+        <mxCell id="researcher" value="Araştırmacı" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#344563;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="390" width="50" height="90" />
         </mxCell>
-        <mxCell id="actor" value="ARAŞTIRMACI" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#D9E6F7;strokeColor=#5B7CA6;fontSize=20;fontStyle=1;fontColor=#CB3D30;" vertex="1" parent="1">
-          <mxGeometry x="100" y="565" width="120" height="185" as="geometry" />
+        <mxCell id="u0" value="Veri setini yüklemek" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f4f7fb;strokeColor=#344563;fontColor=#172b4d;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="115" width="300" height="76" />
         </mxCell>
-        <mxCell id="uc1" value="Veri Setini&lt;br&gt;Yükle" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFC142;strokeColor=#CE901E;strokeWidth=2;align=center;verticalAlign=middle;fontSize=22;fontFamily=DejaVu Sans;fontStyle=0;fontColor=#253754;spacing=10;" vertex="1" parent="1">
-          <mxGeometry x="575.0" y="148" width="360" height="94" as="geometry" />
+        <mxCell id="a0" value="" source="researcher" target="u0" edge="1" parent="1" style="edgeStyle=none;html=0;strokeColor=#344563;fontSize=16;labelBackgroundColor=#ffffff;endArrow=none;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="uc2" value="Veri Setinin Lisansını&lt;br&gt;Kontrol Et" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFC142;strokeColor=#CE901E;strokeWidth=2;align=center;verticalAlign=middle;fontSize=22;fontFamily=DejaVu Sans;fontStyle=0;fontColor=#253754;spacing=10;" vertex="1" parent="1">
-          <mxGeometry x="575.0" y="303" width="360" height="94" as="geometry" />
+        <mxCell id="u1" value="Veri setini incelemek" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f4f7fb;strokeColor=#344563;fontColor=#172b4d;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="215" width="300" height="76" />
         </mxCell>
-        <mxCell id="uc3" value="Veri Setini&lt;br&gt;Hazırla" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFC142;strokeColor=#CE901E;strokeWidth=2;align=center;verticalAlign=middle;fontSize=22;fontFamily=DejaVu Sans;fontStyle=0;fontColor=#253754;spacing=10;" vertex="1" parent="1">
-          <mxGeometry x="575.0" y="458" width="360" height="94" as="geometry" />
+        <mxCell id="a1" value="" source="researcher" target="u1" edge="1" parent="1" style="edgeStyle=none;html=0;strokeColor=#344563;fontSize=16;labelBackgroundColor=#ffffff;endArrow=none;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="uc4" value="Modelleri Eğit" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFC142;strokeColor=#CE901E;strokeWidth=2;align=center;verticalAlign=middle;fontSize=22;fontFamily=DejaVu Sans;fontStyle=0;fontColor=#253754;spacing=10;" vertex="1" parent="1">
-          <mxGeometry x="575.0" y="613" width="360" height="94" as="geometry" />
+        <mxCell id="u2" value="Veriyi eğitime hazırlamak" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f4f7fb;strokeColor=#344563;fontColor=#172b4d;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="315" width="300" height="76" />
         </mxCell>
-        <mxCell id="uc5" value="Eğitilen Modellerin&lt;br&gt;Başarısını Test Et" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFC142;strokeColor=#CE901E;strokeWidth=2;align=center;verticalAlign=middle;fontSize=22;fontFamily=DejaVu Sans;fontStyle=0;fontColor=#253754;spacing=10;" vertex="1" parent="1">
-          <mxGeometry x="552.5" y="768" width="405" height="94" as="geometry" />
+        <mxCell id="a2" value="" source="researcher" target="u2" edge="1" parent="1" style="edgeStyle=none;html=0;strokeColor=#344563;fontSize=16;labelBackgroundColor=#ffffff;endArrow=none;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="uc6" value="Sonuçları&lt;br&gt;Karşılaştır" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFC142;strokeColor=#CE901E;strokeWidth=2;align=center;verticalAlign=middle;fontSize=22;fontFamily=DejaVu Sans;fontStyle=0;fontColor=#253754;spacing=10;" vertex="1" parent="1">
-          <mxGeometry x="575.0" y="923" width="360" height="94" as="geometry" />
+        <mxCell id="u3" value="Modelleri eğitmek" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f4f7fb;strokeColor=#344563;fontColor=#172b4d;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="415" width="300" height="76" />
         </mxCell>
-        <mxCell id="uc7" value="Sonuçları&lt;br&gt;Raporla" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFC142;strokeColor=#CE901E;strokeWidth=2;align=center;verticalAlign=middle;fontSize=22;fontFamily=DejaVu Sans;fontStyle=0;fontColor=#253754;spacing=10;" vertex="1" parent="1">
-          <mxGeometry x="575.0" y="1078" width="360" height="94" as="geometry" />
+        <mxCell id="a3" value="" source="researcher" target="u3" edge="1" parent="1" style="edgeStyle=none;html=0;strokeColor=#344563;fontSize=16;labelBackgroundColor=#ffffff;endArrow=none;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="link0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1E3050;strokeWidth=3;endArrow=none;endFill=1;fontSize=20;fontFamily=DejaVu Sans;fontColor=#21334D;fontStyle=1;exitX=0.95;exitY=0.45;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor" target="uc1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="u4" value="Modelleri değerlendirmek" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f4f7fb;strokeColor=#344563;fontColor=#172b4d;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="545" width="300" height="76" />
         </mxCell>
-        <mxCell id="link1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1E3050;strokeWidth=3;endArrow=none;endFill=1;fontSize=20;fontFamily=DejaVu Sans;fontColor=#21334D;fontStyle=1;exitX=0.95;exitY=0.45;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor" target="uc2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="a4" value="" source="researcher" target="u4" edge="1" parent="1" style="edgeStyle=none;html=0;strokeColor=#344563;fontSize=16;labelBackgroundColor=#ffffff;endArrow=none;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="link2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1E3050;strokeWidth=3;endArrow=none;endFill=1;fontSize=20;fontFamily=DejaVu Sans;fontColor=#21334D;fontStyle=1;exitX=0.95;exitY=0.45;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor" target="uc3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="u5" value="Model sonuçlarını&#10;karşılaştırmak" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f4f7fb;strokeColor=#344563;fontColor=#172b4d;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="675" width="300" height="76" />
         </mxCell>
-        <mxCell id="link3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1E3050;strokeWidth=3;endArrow=none;endFill=1;fontSize=20;fontFamily=DejaVu Sans;fontColor=#21334D;fontStyle=1;exitX=0.95;exitY=0.45;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor" target="uc4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="a5" value="" source="researcher" target="u5" edge="1" parent="1" style="edgeStyle=none;html=0;strokeColor=#344563;fontSize=16;labelBackgroundColor=#ffffff;endArrow=none;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="link4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1E3050;strokeWidth=3;endArrow=none;endFill=1;fontSize=20;fontFamily=DejaVu Sans;fontColor=#21334D;fontStyle=1;exitX=0.95;exitY=0.45;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor" target="uc5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="lr" value="Lojistik Regresyon&#10;modelini eğitmek" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f4f7fb;strokeColor=#344563;fontColor=#172b4d;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="860" y="375" width="280" height="76" />
         </mxCell>
-        <mxCell id="link5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1E3050;strokeWidth=3;endArrow=none;endFill=1;fontSize=20;fontFamily=DejaVu Sans;fontColor=#21334D;fontStyle=1;exitX=0.95;exitY=0.45;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor" target="uc6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dt" value="Karar Ağacı&#10;modelini eğitmek" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f4f7fb;strokeColor=#344563;fontColor=#172b4d;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="860" y="475" width="280" height="76" />
         </mxCell>
-        <mxCell id="link6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#1E3050;strokeWidth=3;endArrow=none;endFill=1;fontSize=20;fontFamily=DejaVu Sans;fontColor=#21334D;fontStyle=1;exitX=0.95;exitY=0.45;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="actor" target="uc7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="metrics" value="Performans ölçütlerini&#10;hesaplamak" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f4f7fb;strokeColor=#344563;fontColor=#172b4d;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="860" y="590" width="280" height="76" />
+        </mxCell>
+        <mxCell id="inc1" value="«include»" source="u3" target="lr" edge="1" parent="1" style="edgeStyle=none;html=0;strokeColor=#344563;fontSize=16;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="inc2" value="«include»" source="u3" target="dt" edge="1" parent="1" style="edgeStyle=none;html=0;strokeColor=#344563;fontSize=16;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="inc3" value="«include»" source="u4" target="metrics" edge="1" parent="1" style="edgeStyle=none;html=0;strokeColor=#344563;fontSize=16;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="optional" value="İsteğe bağlı: Tahmin arayüzü (UI veya CLI)" style="rounded=0;fillColor=none;strokeColor=#344563;fontSize=20;fontStyle=1;verticalAlign=top;spacingTop=15;dashed=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="310" y="800" width="830" height="170" />
+        </mxCell>
+        <mxCell id="user" value="Kullanıcı" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;strokeColor=#344563;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="820" width="50" height="90" />
+        </mxCell>
+        <mxCell id="predict" value="Dört sayısal özellik ile&#10;banknot tahmini almak" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f4f7fb;strokeColor=#344563;fontColor=#172b4d;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="440" y="865" width="470" height="76" />
+        </mxCell>
+        <mxCell id="auser" value="" source="user" target="predict" edge="1" parent="1" style="edgeStyle=none;html=0;strokeColor=#344563;fontSize=16;labelBackgroundColor=#ffffff;endArrow=none;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
       </root>
     </mxGraphModel>

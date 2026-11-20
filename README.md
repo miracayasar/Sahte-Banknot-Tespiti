@@ -139,6 +139,7 @@ Bu bulgular doğrultusunda, farklı sınıflandırma yaklaşımlarını temsil e
 
 Proje kapsamında iki modelin aynı eğitim ve test verileriyle karşılaştırılması hedeflenmektedir. Literatürdeki bulgulara dayanarak her iki modelin de **%95'in üzerinde doğruluk** elde edebileceği hipotezi test edilecektir.
 
+
 ## 📊 6. Haftalık Çalışmalar ve İlerleme
 
 ### 📂 Gerçekleştirilen Çalışmalar
@@ -147,10 +148,11 @@ Proje kapsamında tamamlanan çalışmalar, ilgili dosyalar ve belgelerle birlik
 
 | Çalışma | Kapsam | Dosyalar |
 |---|---|---|
-| **5. Hafta — UML ve Tasarım** | Use Case, Activity ve Class diyagramlarının hazırlanması; sistemin yapısının ve işleyişinin modellenmesi. | [UML Diyagramları](docs/uml/) · [5. Hafta UML Raporu](docs/haftalik_raporlar/5.%20hafta%20UML%20proje%20raporu.pdf) |
-| **6. Hafta — Veri Analizi** | UCI Banknote Authentication veri setinin Google Colab ortamında incelenmesi, temel istatistiklerin hesaplanması ve grafiklerle görselleştirilmesi. | [Google Colab Çalışması](notebooks/Hafta6_Ogrenci_Proje_Veri_Analizi_Sablonu.ipynb) · [6. Hafta Açıklamaları](notebooks/README.md) |
+| **5. Hafta – UML ve Tasarım** | Use Case, Activity ve Class diyagramlarının hazırlanması; sistemin yapısının ve işleyişinin modellenmesi. | [Use Case Diyagramı](docs/uml/png/use_case.png) · [Activity Diyagramı](docs/uml/png/activity%20diagram.png) · [Class Diyagramı](docs/uml/png/class_diagram_updated.drawio.png) · [5. Hafta UML Raporu](docs/haftalik_raporlar/5_Hafta_UML_Proje_Raporu.pdf) |
+| **6. Hafta – Veri Analizi** | UCI Banknote Authentication veri setinin Google Colab ortamında incelenmesi, temel istatistiklerin hesaplanması ve grafiklerle görselleştirilmesi. | [Google Colab Çalışması](notebooks/Hafta6_Ogrenci_Proje_Veri_Analizi_Sablonu.ipynb) · [6. Hafta Açıklamaları](notebooks/README.md) |
 
 ---
+
 
 
 ## 🛠️ 7. Kullanılan Uygulamalar ve Platformlar

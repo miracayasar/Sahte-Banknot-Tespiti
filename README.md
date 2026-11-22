@@ -4,7 +4,8 @@
 
 **Dönem:** 2026–2027 Güz  
 **Proje türü:** Makine Öğrenmesi ve Yazılım Mühendisliği  
-**Ekip:** Miraç Yaşar • Buğra Ahat • İbrahim Alo  
+**Ekip:** Miraç Ahmet Yaşar • Muhammet Buğra Ahat • İbrahim Alo 
+
 **Durum:** Geliştirme aşamasında
 
 ---
@@ -65,10 +66,13 @@ Projenin tamamlanması için gerekli temel çalışmalar:
 - Lojistik Regresyon modelini eğitmek.
 - Karar Ağacı modelini eğitmek.
 - Modellerin sınıflandırma başarılarını değerlendirmek.
+
 - İki yöntemin sonuçlarını karşılaştırmak.
-- Bulguları raporlamak ve GitHub üzerinde belgelemek.
+- Modellerin performans sonuçlarını karşılaştırmalı grafikler ve tablolar aracılığıyla görselleştirmek.
+- Elde edilen bulguları bilimsel biçimde raporlamak ve GitHub üzerinde belgelemek.
 
 **Bu bölüm dönem projesinin ana hedefidir.**
+
 
 
 
@@ -76,13 +80,14 @@ Projenin tamamlanması için gerekli temel çalışmalar:
 
 Projenin temel gereksinimleri tamamlandıktan sonra, zaman ve teknik olanaklar doğrultusunda aşağıdaki ek geliştirmelerin gerçekleştirilmesi planlanmaktadır:
 
-- **Performans Sonuçlarının Görselleştirilmesi:** Lojistik Regresyon ve Karar Ağacı modellerinin performans sonuçlarının, karşılaştırmalı grafikler ve tablolar aracılığıyla daha anlaşılır biçimde sunulması.
+- **Kullanıcı Arayüzü (Streamlit):** Python ve Streamlit kullanılarak, kullanıcının banknotlara ait dört sayısal özelliği (Variance, Skewness, Curtosis ve Entropy) girebileceği, tahmin işlemini başlatabileceği ve eğitilmiş makine öğrenmesi modelinin sınıflandırma sonucunu görüntüleyebileceği basit bir uygulama geliştirilmesi. Arayüzün en az bir eğitilmiş modelle bütünleşik biçimde çalışması hedeflenmektedir.
 
-- **Kullanıcı Arayüzü (UI) Geliştirilmesi:** Python ve Streamlit kullanılarak, kullanıcının banknotlara ait dört sayısal özelliği (Variance, Skewness, Curtosis ve Entropy) girebileceği, tahmin işlemini başlatabileceği ve eğitilmiş makine öğrenmesi modelinin sınıflandırma sonucunu görüntüleyebileceği basit bir uygulama geliştirilmesi. Arayüzün, en az bir eğitilmiş sınıflandırma modeliyle bütünleşik biçimde çalışması hedeflenmektedir.
+- **Alternatif Komut Satırı Arayüzü (CLI):** Streamlit arayüzünün teknik sınırlılıklar veya zaman yetersizliği nedeniyle tamamlanamaması durumunda, aynı temel tahmin işlevini terminal üzerinden gerçekleştiren bir Minimum Uygulanabilir Ürün (MVP) geliştirilmesi.
 
-- **Alternatif Komut Satırı Arayüzü (CLI):** Streamlit tabanlı arayüzün teknik sınırlılıklar veya zaman yetersizliği nedeniyle tamamlanamaması durumunda, aynı temel işlevleri terminal üzerinden gerçekleştiren bir Minimum Uygulanabilir Ürün (MVP) geliştirilmesi. CLI, Streamlit arayüzünün alternatifi olup her iki arayüzün birlikte geliştirilmesi zorunlu değildir.
+**Öncelik:** Streamlit tercih edilen arayüzdür. CLI yalnızca alternatif çözüm olarak planlanmıştır.
 
-**Kapsam Sınırı:** Planlanan arayüz, doğrudan banknot fotoğrafı üzerinden sahtecilik tespiti gerçekleştirmeyecektir. Uygulama, önceden çıkarılmış dört sayısal özellik üzerinden modelin tahmin yeteneğini göstermek amacıyla hazırlanmış eğitim ve demonstrasyon odaklı bir sistem olacaktır.
+**Kapsam Sınırı:** Planlanan arayüz doğrudan banknot fotoğrafı üzerinden sahtecilik tespiti gerçekleştirmeyecektir. Uygulama, önceden çıkarılmış dört sayısal özellik üzerinden modelin tahmin yeteneğini göstermek amacıyla hazırlanmış eğitim ve demonstrasyon odaklı bir sistem olacaktır.
+
 
 
 
@@ -155,14 +160,32 @@ Proje kapsamında tamamlanan çalışmalar, ilgili dosyalar ve belgelerle birlik
 
 
 
-## 🛠️ 7. Kullanılan Uygulamalar ve Platformlar
+
+## 🛠️ 7. Kullanılan Araçlar ve Teknolojiler
+
+Proje kapsamında veri analizi, model geliştirme, yazılım tasarımı, sürüm yönetimi ve ekip koordinasyonu için çeşitli araçlar ve teknolojiler kullanılmaktadır.
+
+### 💻 Uygulamalar ve Platformlar
 
 | Uygulama / Platform | Kullanım Amacı |
 |---|---|
-| **Google Colab** | Veri analizi ve makine öğrenmesi kodlarının geliştirilmesi ve çalıştırılması |
-| **GitHub** | Proje dosyalarının yönetimi, sürüm takibi ve ekip içi görev koordinasyonu |
-| **GitHub Projects (Kanban)** | Görevlerin planlanması, sorumluların belirlenmesi ve proje ilerlemesinin takip edilmesi |
+| **Google Colab** | Python kodlarının çalıştırılması, veri analizi ve grafiklerin oluşturulması |
+| **Jupyter Notebook (.ipynb)** | Kodların, açıklamaların ve analiz çıktılarının bir arada tutulması |
+| **GitHub** | Proje dosyalarının yönetimi ve sürüm kontrolü |
+| **GitHub Issues** | Görevlerin tanımlanması, sorumlulukların ve kabul kriterlerinin belirlenmesi |
+| **GitHub Projects (Kanban)** | Görevlerin planlanması ve proje ilerleyişinin takip edilmesi |
 | **draw.io / diagrams.net** | Use Case, Activity ve Class diyagramlarının hazırlanması |
+
+### 🐍 Programlama Dili ve Kütüphaneler
+
+| Teknoloji | Kullanım Amacı | Durum |
+|---|---|---|
+| **Python** | Veri işleme, makine öğrenmesi ve sınıflandırma uygulamaları | Kullanılıyor |
+| **pandas** | Veri setinin okunması, düzenlenmesi ve istatistiksel analizi | Kullanılıyor |
+| **Matplotlib** | Veri analizinin grafiklerle görselleştirilmesi | Kullanılıyor |
+| **Streamlit** | Eğitilmiş model için web tabanlı kullanıcı arayüzü geliştirilmesi | Planlanıyor |
+
+
 
 
 
@@ -180,9 +203,10 @@ Proje, üç kişilik ekip tarafından yürütülmektedir. Görevler; veri hazır
 
 | Ekip Üyesi | Görev ve Sorumluluklar |
 |---|---|
-| **Miraç Yaşar** | GitHub deposunun genel yönetimi, dosya ve sürüm organizasyonu, Karar Ağacı modelinin geliştirilmesi , Karar Ağacı performansının ölçülmesi , isteğe bağlı Streamlit kullanıcı arayüzünün geliştirilmesi  ve sunumların hazırlanması ve gerçekleştirilmesi. |
-| **İbrahim Alo** | Veri hazırlama ve ön işleme , Lojistik Regresyon modelinin geliştirilmesi , Lojistik Regresyon performansının ölçülmesi  ve sunumların hazırlanması ve gerçekleştirilmesi. |
-| **Buğra Ahat** | Projenin raporlama ve dokümantasyon süreçlerinin yürütülmesi, haftalık raporların hazırlanması, teknik çalışmaların belgelenmesi ve nihai teknik raporun hazırlanması . |
+| **Miraç Ahmet Yaşar** | GitHub deposunun genel yönetimi, dosya ve sürüm organizasyonu, Karar Ağacı modelinin geliştirilmesi ve performansının ölçülmesi, isteğe bağlı Streamlit kullanıcı arayüzünün veya alternatif CLI uygulamasının geliştirilmesi, sunumların hazırlanması ve gerçekleştirilmesi. |
+| **İbrahim Alo** | Veri hazırlama ve ön işleme, Lojistik Regresyon modelinin geliştirilmesi ve performansının ölçülmesi, sunumların hazırlanması ve gerçekleştirilmesi. |
+| **Muhammet Buğra Ahat** | Projenin raporlama ve dokümantasyon süreçlerinin yürütülmesi, haftalık raporların hazırlanması, teknik çalışmaların belgelenmesi, model performanslarının karşılaştırmalı grafikler ve tablolarla görselleştirilmesi ve nihai teknik raporun hazırlanması. |
+
 
 ### 🤝 Ortak Sorumluluklar
 

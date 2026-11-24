@@ -7,14 +7,14 @@ Bu klasör, Sahte Banknot Tespiti projesinde kullanılan yeniden kullanılabilir
 
 | Dosya | Açıklama |
 |---|---|
-| [preprocessing.py](preprocessing.py) | Veri temizleme, eğitim-test ayrımı, standardizasyon ve veri bütünlüğü kontrolleri |
+| [Preprocessing.py](Preprocessing.py) | Veri temizleme, eğitim-test ayrımı, standardizasyon ve veri bütünlüğü kontrolleri |
 
 ## Veri Ön İşleme Modülünün Kullanımı
 
-Google Colab çalışma ortamına `preprocessing.py` dosyasını ve orijinal UCI veri setinin ZIP arşivini yükleyin.
+Google Colab çalışma ortamına `Preprocessing.py` dosyasını ve orijinal UCI veri setinin ZIP arşivini yükleyin.
 
 ```python
-from preprocessing import veri_hazirla
+from Preprocessing import veri_hazirla
 
 veriler = veri_hazirla("banknote+authentication.zip")
 ```

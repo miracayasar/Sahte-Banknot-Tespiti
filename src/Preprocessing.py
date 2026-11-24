@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Sahte Banknot Tespiti | Ortak veri hazırlama modülü.
 
-Kaynak çalışma: Veri_On_Isleme.ipynb (İbrahim Alo, 24 Kasım 2026).
+Kaynak çalışma: On_Isleme.ipynb (İbrahim Alo, 24 Kasım 2026).
 Veri: UCI Banknote Authentication, DOI: 10.24432/C55P57, CC BY 4.0.
 Model eğitimi içermez. Orijinal ZIP arşivini yerel olarak kullanır.
 """

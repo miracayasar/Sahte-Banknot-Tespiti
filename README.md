@@ -156,7 +156,9 @@ Proje kapsamında tamamlanan çalışmalar, ilgili kaynak kodları, analiz sonu�
 |---|---|---|
 | **5. Hafta – UML ve Tasarım** | Use Case, Activity ve Class diyagramlarının hazırlanması; sistemin yapısının ve işleyişinin modellenmesi. | [Use Case Diyagramı](docs/uml/png/use_case.png) · [Activity Diyagramı](docs/uml/png/activity%20diagram.png) · [Class Diyagramı](docs/uml/png/class_diagram_updated.drawio.png) · [5. Hafta UML Raporu](docs/haftalik_raporlar/5_Hafta_UML_Proje_Raporu.pdf) |
 | **6. Hafta – Keşifsel Veri Analizi (EDA)** | UCI Banknote Authentication veri setindeki 1.372 kaydın incelenmesi, temel istatistiklerin hesaplanması ve grafiklerle görselleştirilmesi. | [Google Colab Çalışması](notebooks/01_veri_kesfi/Hafta6_Ogrenci_Proje_Veri_Analizi_Sablonu.ipynb) · [Veri Keşfi Dokümantasyonu](notebooks/01_veri_kesfi/README.md) |
-| **Veri Hazırlama ve Ön İşleme** | 24 tekrarlanan kaydın kaldırılması, veri türlerinin doğrulanması, özellik ve hedef değişkenlerin ayrılması, ortak eğitim-test kümelerinin oluşturulması ve Lojistik Regresyon için veri sızıntısı önlenerek standardizasyon uygulanması. | [Google Colab Çalışması](notebooks/02_veri_on_isleme/Veri_On_Isleme.ipynb) · [Veri Ön İşleme Dokümantasyonu](notebooks/02_veri_on_isleme/README.md) |
+
+| **Veri Hazırlama ve Ön İşleme** | 24 tekrarlanan kaydın kaldırılması, ortak eğitim-test kümelerinin oluşturulması, veri sızıntısı önlenerek standardizasyon uygulanması ve yeniden kullanılabilir Python modülünün geliştirilmesi. | [Google Colab Çalışması](notebooks/02_veri_on_isleme/On_Isleme.ipynb) · [Dokümantasyon](notebooks/02_veri_on_isleme/README.md) · [Python Modülü](src/Preprocessing.py) · [Modül Kullanım Rehberi](src/README.md) |
+
 
 ---
 
@@ -186,6 +188,8 @@ Proje kapsamında veri analizi, model geliştirme, yazılım tasarımı, sürüm
 | **Python** | Veri işleme, makine öğrenmesi ve sınıflandırma uygulamaları | Kullanılıyor |
 | **pandas** | Veri setinin okunması, düzenlenmesi ve istatistiksel analizi | Kullanılıyor |
 | **Matplotlib** | Veri analizinin grafiklerle görselleştirilmesi | Kullanılıyor |
+| **NumPy** | Sayısal işlemler ve veri bütünlüğünün doğrulanması | Kullanılıyor |
+| **Scikit-learn** | Eğitim-test ayrımı ve özelliklerin standardizasyonu | Kullanılıyor |
 | **Streamlit** | Eğitilmiş model için web tabanlı kullanıcı arayüzü geliştirilmesi | Planlanıyor |
 
 

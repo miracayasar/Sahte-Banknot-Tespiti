@@ -145,18 +145,21 @@ Bu bulgular doğrultusunda, farklı sınıflandırma yaklaşımlarını temsil e
 Proje kapsamında iki modelin aynı eğitim ve test verileriyle karşılaştırılması hedeflenmektedir. Literatürdeki bulgulara dayanarak her iki modelin de **%95'in üzerinde doğruluk** elde edebileceği hipotezi test edilecektir.
 
 
+
 ## 📊 6. Haftalık Çalışmalar ve İlerleme
 
 ### 📂 Gerçekleştirilen Çalışmalar
 
-Proje kapsamında tamamlanan çalışmalar, ilgili dosyalar ve belgelerle birlikte GitHub deposunda düzenli olarak saklanmaktadır.
+Proje kapsamında tamamlanan çalışmalar, ilgili kaynak kodları, analiz sonuçları ve teknik açıklamalarla birlikte GitHub deposunda düzenli olarak saklanmaktadır.
 
 | Çalışma | Kapsam | Dosyalar |
 |---|---|---|
 | **5. Hafta – UML ve Tasarım** | Use Case, Activity ve Class diyagramlarının hazırlanması; sistemin yapısının ve işleyişinin modellenmesi. | [Use Case Diyagramı](docs/uml/png/use_case.png) · [Activity Diyagramı](docs/uml/png/activity%20diagram.png) · [Class Diyagramı](docs/uml/png/class_diagram_updated.drawio.png) · [5. Hafta UML Raporu](docs/haftalik_raporlar/5_Hafta_UML_Proje_Raporu.pdf) |
-| **6. Hafta – Veri Analizi** | UCI Banknote Authentication veri setinin Google Colab ortamında incelenmesi, temel istatistiklerin hesaplanması ve grafiklerle görselleştirilmesi. | [Google Colab Çalışması](notebooks/Hafta6_Ogrenci_Proje_Veri_Analizi_Sablonu.ipynb) · [6. Hafta Açıklamaları](notebooks/README.md) |
+| **6. Hafta – Keşifsel Veri Analizi (EDA)** | UCI Banknote Authentication veri setindeki 1.372 kaydın incelenmesi, temel istatistiklerin hesaplanması ve grafiklerle görselleştirilmesi. | [Google Colab Çalışması](notebooks/01_veri_kesfi/Hafta6_Ogrenci_Proje_Veri_Analizi_Sablonu.ipynb) · [Veri Keşfi Dokümantasyonu](notebooks/01_veri_kesfi/README.md) |
+| **Veri Hazırlama ve Ön İşleme** | 24 tekrarlanan kaydın kaldırılması, veri türlerinin doğrulanması, özellik ve hedef değişkenlerin ayrılması, ortak eğitim-test kümelerinin oluşturulması ve Lojistik Regresyon için veri sızıntısı önlenerek standardizasyon uygulanması. | [Google Colab Çalışması](notebooks/02_veri_on_isleme/Veri_On_Isleme.ipynb) · [Veri Ön İşleme Dokümantasyonu](notebooks/02_veri_on_isleme/README.md) |
 
 ---
+
 
 
 

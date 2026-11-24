@@ -31,8 +31,10 @@
 - **Hiçbir sütunda eksik değer bulunmamaktadır.**
 - Dosyada sütun başlıkları yoktur ve değerler virgülle ayrılmıştır.
 - Sınıf dağılımı: `0` sınıfında 762, `1` sınıfında 610 kayıt bulunmaktadır.
-- İlk incelemede 24 tekrarlanan satır tespit edilmiştir. Bu kayıtlar veri ön işleme aşamasında değerlendirilecektir.
-- Veri seti ham banknot fotoğraflarını değil, görüntülerden çıkarılmış sayısal özellikleri içermektedir.
+- İlk incelemede tespit edilen 24 tekrarlanan satır, veri ön işleme aşamasında kaldırılmıştır.
+- Ham veri seti 1.372, temizlenmiş veri seti ise 1.348 kayıttan oluşmaktadır.
+- [Veri Ön İşleme Çalışması](../notebooks/02_veri_on_isleme/README.md)
+
 
 ## 🎯 Projede Kullanım Amacı
 

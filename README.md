@@ -154,10 +154,14 @@ Proje kapsamında tamamlanan çalışmalar, ilgili kaynak kodları, analiz sonu�
 
 | Çalışma | Kapsam | Dosyalar |
 |---|---|---|
-| **5. Hafta – UML ve Tasarım** | Use Case, Activity ve Class diyagramlarının hazırlanması; sistemin yapısının ve işleyişinin modellenmesi. | [Use Case Diyagramı](docs/uml/png/use_case.png) · [Activity Diyagramı](docs/uml/png/activity%20diagram.png) · [Class Diyagramı](docs/uml/png/class_diagram_updated.drawio.png) · [5. Hafta UML Raporu](docs/haftalik_raporlar/5_Hafta_UML_Proje_Raporu.pdf) |
+| **5. Hafta – UML ve Tasarım** | Use Case, Activity ve Class diyagramlarının hazırlanması; sistemin yapısının ve işleyişinin modellenmesi. | [Use Case Diyagramı](docs/uml/png/use_case.png) · [Activity Diyagramı](docs/uml/png/activity%20diagram.png) · [Class Diyagramı](docs/uml/png/class_diagram_updated.drawio.png) · [UML Tasarım Raporu](docs/raporlar/UML_Tasarim_Raporu.pdf) |
 | **6. Hafta – Keşifsel Veri Analizi (EDA)** | UCI Banknote Authentication veri setindeki 1.372 kaydın incelenmesi, temel istatistiklerin hesaplanması ve grafiklerle görselleştirilmesi. | [Google Colab Çalışması](notebooks/01_veri_kesfi/Hafta6_Ogrenci_Proje_Veri_Analizi_Sablonu.ipynb) · [Veri Keşfi Dokümantasyonu](notebooks/01_veri_kesfi/README.md) |
 
 | **Veri Hazırlama ve Ön İşleme** | 24 tekrarlanan kaydın kaldırılması, ortak eğitim-test kümelerinin oluşturulması, veri sızıntısı önlenerek standardizasyon uygulanması ve yeniden kullanılabilir Python modülünün geliştirilmesi. | [Google Colab Çalışması](notebooks/02_veri_on_isleme/On_Isleme.ipynb) · [Dokümantasyon](notebooks/02_veri_on_isleme/README.md) · [Python Modülü](src/Preprocessing.py) · [Modül Kullanım Rehberi](src/README.md) |
+
+
+| **Ara Rapor – Vize Dönemi** | Vize dönemine kadar gerçekleştirilen çalışmaların, proje tasarımının ve mevcut ilerlemenin belgelenmesi. | [Ara Rapor](docs/raporlar/Sahte_Banknot_Tespiti_Vize_Raporu.docx) |
+
 
 
 ---
@@ -212,7 +216,8 @@ Proje, üç kişilik ekip tarafından yürütülmektedir. Görevler; veri hazır
 |---|---|
 | **Miraç Ahmet Yaşar** | GitHub deposunun genel yönetimi, dosya ve sürüm organizasyonu, Karar Ağacı modelinin geliştirilmesi ve performansının ölçülmesi, isteğe bağlı Streamlit kullanıcı arayüzünün veya alternatif CLI uygulamasının geliştirilmesi, sunumların hazırlanması ve gerçekleştirilmesi. |
 | **İbrahim Alo** | Veri hazırlama ve ön işleme, Lojistik Regresyon modelinin geliştirilmesi ve performansının ölçülmesi, sunumların hazırlanması ve gerçekleştirilmesi. |
-| **Muhammet Buğra Ahat** | Projenin raporlama ve dokümantasyon süreçlerinin yürütülmesi, haftalık raporların hazırlanması, teknik çalışmaların belgelenmesi, model performanslarının karşılaştırmalı grafikler ve tablolarla görselleştirilmesi ve nihai teknik raporun hazırlanması. |
+| **Muhammet Buğra Ahat** | Projenin raporlama ve dokümantasyon süreçlerinin yürütülmesi, teknik çalışmaların belgelenmesi, ara raporun hazırlanması, model performanslarının karşılaştırmalı grafikler ve tablolarla görselleştirilmesi ve nihai teknik raporun hazırlanması. |
+
 
 
 ### 🤝 Ortak Sorumluluklar

@@ -111,7 +111,13 @@ Her iki model aynı eğitim ve test kayıtlarını kullanacaktır.
 4. Tüm kod hücrelerini sırasıyla çalıştırın.
 5. Son teknik kontrollerin başarılı olduğunu doğrulayın.
 
-**Notebook dosyası:** [Veri Ön İşleme Çalışması](Veri_On_Isleme.ipynb)
+
+**Notebook dosyası:** [Veri Ön İşleme Çalışması](On_Isleme.ipynb)
+
+**Ortak Python modülü:** [Preprocessing.py](../../src/Preprocessing.py)
+
+**Modül kullanım talimatları:** [Kaynak Kodlar README](../../src/README.md)
+
 
 Ayrı bir çalışma ortamında model eğitimi yapılacaksa ön işleme işlemleri aynı veri seti ve aynı parametrelerle yeniden gerçekleştirilmelidir.
 
